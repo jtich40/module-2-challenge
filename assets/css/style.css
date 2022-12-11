@@ -1,0 +1,61 @@
+* {
+    
+}
+
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b30707;
+    padding: 0 6% 0 3%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #000;
+    border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    align-items: center;    
+}
+
+nav  li {
+    display: inline;
+    
+}
+
+nav a {
+    padding: 13px;
+    text-decoration: none;
+    color: #000;
+    font-size: 27px;
+    
+}
+
+nav a:active {
+    box-shadow: 10px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: underline;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #000;
+    text-decoration: underline;
+    border-radius: 3px;
+}
+
+/* Contact Me Section */
+.contact-links li {
+    display: inline;
+}
+
