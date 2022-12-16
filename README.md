@@ -8,7 +8,7 @@ The purpose of this website is to serve as a porfolio showcasing all bootcamp co
 
 Below is a link to the deployed website and accompanying screenshot.
 
-https://jtich40.github.io/module-1-challenge/
+https://jtich40.github.io/module-2-challenge/
 
 ![image](https://user-images.githubusercontent.com/116316302/208026555-d764d774-fa5b-468b-a48b-bf7092b9c803.png)
 
