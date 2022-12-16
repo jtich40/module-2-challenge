@@ -11,6 +11,7 @@ line-height: 1.5;
 }
 
 p {
+font-size: 25px;
 margin: 30px;
 padding: 10px;
 }
@@ -22,7 +23,6 @@ header {
     flex-wrap: wrap;
     background-color: #868282;
     padding: 0 6% 0 3%;
-
 }
 
 header h1 {
@@ -72,52 +72,26 @@ nav a:active {
     
 }
 
-/* Main Section */
-main {
-    margin: 45px 37px;
-}
-
 /* Hero Section */
 .hero-banner {
     padding: 83px;
     background-image: url(../images/anas-alshanti-feXpdV001o4-unsplash.jpg);
     background-size: cover;
     background-position: center;
-   
-    
-}
-/* Portfolio Photo Section */
-
-.profile {
-    padding: 10px;
-    width: 177px;
 }
 
+/* About Me Section */
 .profile img {
     width: 177px;
     height: 206px;
 }
 
-
-/* About Me Section */
 .container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: flex-start;
 } 
-
-.container h2 {
-justify-content: flex-start;
-}
-
-.right {
-display: flex;
-width: 70%;
-padding: 20px;
-margin: 10px;
-border-left: 5px solid black
-}
 
 .container h2 {
     width: 20%;
@@ -129,33 +103,39 @@ border-left: 5px solid black
     color: #000;   
 }
 
+.right {
+    display: flex;
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    border-left: 5px solid black
+}
+
 
 /* Work Section */
-
-
 .content {
     flex: 5;
-  padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .box {
-  border-style: solid;
-  border-radius: 50px;
-  flex: 0 0 300px;
-  border-width: 1px;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+    border-style: solid;
+    border-radius: 33px;
+    flex: 0 0 300px;
+    border-width: 1px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #1414ee;
 }
 
 .box h3 {
-border-radius: 50px 50px 0px 0px;
-padding: 20px;
-background-color: #1414ee;
+    border-radius: 33px 33px 0px 0px;
+    padding: 20px;
+    background-color: #868282;
 
 }
 
@@ -165,16 +145,26 @@ background-color: #1414ee;
 }
 
 /* Contact Me Section */
-.page-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .right ul {
     list-style-type: none;
+    align-self: center;
 }
 
-.right ul li {
-display: inline;   
+.right ul li a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 5px solid #1414ee;
+    font-size: 27px;
+}
+
+.right ul li a:hover {
+    color: #fa3b01;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.right ul li a:active {
+    color: #fff;
+    background-color: #1414ee;
+    border-radius: 3px;
 }
