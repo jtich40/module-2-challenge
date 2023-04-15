@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,115 +9,229 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+
     <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll fade">
         <div class="container">
-            <a class="navbar-brand" id="home-tab" href="#">Jared</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Jared</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto rounded-4 bg-secondary-subtle">
                     <li class="nav-item">
-                        <a class="nav-link rounded-4" id="tab-1" href="#about-me">About</a>
+                        <a class="nav-link rounded-4" id="tab-1" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link rounded-4" id="tab-2" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded-4" id="tab-3" href="#portfolio">Portfolio</a>
+                        <a class="nav-link rounded-4" id="tab-3" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link rounded-4" id="tab-4" href="#contact">Contact</a>
                     </li>
                 </ul>
-                
+
             </div>
         </div>
     </nav>
-    
+
     <!-- Hero Section -->
-     <section class="container-fluid vh-100 hero-bg" id="home">
-            <div class="row">
+    <section class="container-fluid vh-100 hero-bg" id="home">
+        <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text fade">
                 <h2 class="hero_title">Hi, my name is Jared Tichacek</h2>
                 <p class="hero_desc">Creator | Engineer</p>
             </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="container vh-100 text-center about-bg" id="about">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="col-4">
+                    <img src="" alt="profile picture">
+                </div>
+                <div class="card col-8">
+                    <h3 class="card-header">About Me</h3>
+                    <div class="card-body">
+                        <p class="my-0">I like to solve problems with code and I don't stop until I find answers. I've
+                            always got the end user in mind.</p>
+                        <a href="https://github.com/jtich40" title="GitHub" target="_blank" class="icons">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jared-tichacek/" title="LinkedIn" target="_blank"
+                            class="icons">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#" title="Resume" target="_blank" class="icons">
+                            <i class="bi bi-file-earmark-person"></i>
+                        </a>
+                        <a href="mailto:jared.tichacek@gmail.com" title="Email" target="_blank" class="icons">
+                            <i class="bi bi-envelope-at-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container-fluid vh-100 text-center" id="skills">
+        <div class="row justify-content-center pt-3">
+            <h2>Skills</h2>
+        </div>
+        <div class="row mt-4">
+            <div class="card col-4">
+                <h3 class="card-header">Front-End Development</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="devicon-html5-plain colored skill-icons"></i>
+                        HTML
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-css3-plain colored skill-icons"></i>
+                        CSS
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-javascript-plain colored skill-icons"></i>
+                        JavaScript
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-bootstrap-plain colored skill-icons"></i>
+                        Bootstrap
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-jquery-plain colored skill-icons"></i>
+                        JQuery
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-react-original colored skill-icons"></i>
+                        React.js
+                    </li>
+                </ul>
+            </div>
+            <div class="card col-4">
+                <h3 class="card-header">Back-End Development</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="devicon-nodejs-plain colored skill-icons"></i>
+                        Node.js
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-express-original colored skill-icons"></i>
+                        Express.js
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-mysql-plain colored skill-icons"></i>
+                        MySQL
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-sequelize-plain colored skill-icons"></i>
+                        Sequelize
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-mongodb-plain colored skill-icons"></i>
+                        MongoDB
+                    </li>
+                    <li class="list-group-item">
+                        <img src="./assets/images/mongoose.png" height="50px" width="50px" alt="mongoose">
+                        Mongoose
+                    </li>
+                </ul>
+            </div>
+            <div class="card col-4">
+                <h3 class="card-header">Development Tools</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="devicon-vscode-plain colored skill-icons"></i>
+                        VSCode
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-git-plain colored skill-icons"></i>
+                        Git
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-github-original colored skill-icons"></i>
+                        GitHub
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-heroku-original colored skill-icons"></i>
+                        Heroku
+                    </li>
+                    <li class="list-group-item">
+                        <i class="devicon-npm-original-wordmark colored skill-icons"></i>
+                        NPM
+                    </li>
+                    <li class="list-group-item">
+                        <img src="./assets/images/imsomnia.png" height="30px" width="30px" alt="insomnia">
+                        Insomnia
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container-fluid vh-100 text-center" id="projects">
+        <div class="row justify-content-center pt-3">
+            <h2>Projects</h2>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4 image-container">
+                <a href="https://shared-lunch.herokuapp.com/"><img src="./assets/images/shared lunch.gif" class="img-fluid img-thumbnail" alt="Shared Lunch Preview"></a>
+                <div class="text-overlay">
+                    <p>An online community for restaurants and shelters to coordinate food donations.</p>
+                </div>
+              </div>
+              <div class="col-4 image-container">
+                <a href="https://jtich40.github.io/miphy-movie-gif-generator/"><img src="./assets/images/miphy.gif" class="img-fluid img-thumbnail" alt="Shared Lunch Preview"></a>
+                <div class="text-overlay">
+                    <p>A search engine that finds GIFs for your favorite movies.</p>
+                </div>
+              </div>
+              <div class="col-4 image-container">
+                <a href="https://shared-lunch.herokuapp.com/"><img src="./assets/images/shared-lunch-screenshot.png" class="img-fluid img-thumbnail" alt="Shared Lunch Preview"></a>
+                <div class="text-overlay">
+                    <p>Description of project will go here</p>
+                </div>
+              </div>
+              <div class="col-4 image-container">
+                <a href="https://github.com/jtich40/employee-database"><img src="./assets/images/employee database.gif" class="img-fluid img-thumbnail" alt="Shared Lunch Preview"></a>
+                <div class="text-overlay">
+                    <p>A simple command-line application to manage employee information.</p>
+                </div>
+              </div>
+              <div class="col-4 image-container">
+                <a href="https://jtich40.github.io/weather-dashboard/"><img src="./assets/images/weather dashboard.gif" class="img-fluid img-thumbnail" alt="Shared Lunch Preview"></a>
+                <div class="text-overlay">
+                    <p>A weather app that searches by city to provide 5-day forecast.</p>
+                </div>
+              </div>
+              <div class="col-4 image-container">
+                <a href="https://jtich40.github.io/coding-quiz/"><img src="./assets/images/coding quiz.gif" class="img-fluid img-thumbnail" alt="Shared Lunch Preview"></a>
+                <div class="text-overlay">
+                    <p>A timed coding quiz with multiple choice questions.</p>
+                </div>
+              </div>
             </div>
     </section>
-    
-        <!-- About Me Section -->
-        <section class="container vh-100 text-center" id="about-me">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="col-4">
-                        <img src="" alt="profile picture">
-                    </div>
-                      <div class="card col-8">
-                          <h3 class="card-header">About Me</h3>
-                          <div class="card-body">
-                            <p class="my-0">I like to solve problems with code and I don't stop until I find answers. I've always got the end user in mind.</p>
-                            <a href="https://github.com/jtich40" title="GitHub" target="_blank" class="icons">
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/jared-tichacek/" title="LinkedIn" target="_blank" class="icons">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                            <a href="#" title="Resume" target="_blank" class="icons">
-                                <i class="bi bi-file-earmark-person"></i>
-                            </a>
-                            <a href="mailto:jared.tichacek@gmail.com" title="Email" target="_blank" class="icons">
-                                <i class="bi bi-envelope-at-fill"></i>
-                            </a>  
-                        </div>
-                        </div>
-                  </div>
-                </div>
-        </section>
 
-        <!-- Skills Section -->
-        <section id="skills">
+    <!-- Contact Me Section -->
 
-        </section>
-
-        <!-- Work Section -->
-        <!-- <section class="container" id="work">
-                <h2>Work</h2>
-                <div class="right">
-                    <div class="content">
-                        <div class="box">
-                            <h3>Prework Study Guide</h3>
-                            <a class="prework" href="https://jtich40.github.io/prework-study-guide/"><img src="./assets/images/prework-screenshot.png" alt="refactored code project"></a>
-                        </div>
-                        <div class="box">
-                            <h3>Refactored Code</h3>
-                            <a class="refactored-code" href="https://jtich40.github.io/module-1-challenge/"><img src="./assets/images/horiseon-screenshot.png" alt="prework study guide project"></a>
-                        </div>
-                        <div class="box">
-                            <h3>MIPHY</h3>
-                            <a href="https://jtich40.github.io/miphy-movie-gif-generator/"><img src="./assets/images/miphy-screenshot.png" alt="miphy project"></a>
-                        </div>
-                        <div class="box">
-                            <h3>Shared Lunch</h3>
-                            <a href="https://shared-lunch.herokuapp.com/"><img src="./assets/images/shared-lunch-screenshot.png" alt="shared lunch project"></a>
-                        </div>
-                        <div class="box">
-                            <h3>TBD</h3>
-                            <a href="#"><img src="https://picsum.photos/200/100" alt="placeholder image"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- Contact Me Section -->
-        
 
     <!-- <footer class="container" id="contact-me">
             <h2>Contact Me</h2>
@@ -130,4 +245,5 @@
         </div>
     </footer> -->
 </body>
+
 </html>
